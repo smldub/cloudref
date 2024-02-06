@@ -26,7 +26,7 @@ To connect a local folder (e.g., `D:\CloudRef`) to docker, use following command
     docker run --rm -v"D:/CloudRef:/root/CloudRef" -p 127.0.0.1:8080:8080 jabref/cloudref
 
 ## Start using Docker Compose
-1. Copy the following (or the [sample docker compose file](docker-compose-sample.yaml) and edit files and ports to your specifications
+1. Copy the following (or the [sample docker compose file](docker-compose-sample.yaml)) and edit files and ports to your specifications
 ```
 version: '3'
 services:
